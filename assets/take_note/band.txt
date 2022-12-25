@@ -1,0 +1,8 @@
++ header : phần trên cùng của web (thành phần đầu trang) 
++ navigation(nav) : phần điều hướng
++ breadcrumb : xác định mình ở đâu trong web 
++ sidebar : 
++ slider : màn trình diễn nội dung chạy chạy 
++ footer : chân trang ( để lại fb , gmail, ...)
+
+file responsive phải được đặt ở dưới style.css để được ưu tiên

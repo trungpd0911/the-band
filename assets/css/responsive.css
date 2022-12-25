@@ -1,0 +1,105 @@
+@media (min-width: 1024px) {}
+
+
+/* tablet  and mobile*/
+@media(max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+
+    #footer .socials-list a {
+        padding: 8px;
+    }
+
+    #footer .copyright a {
+        padding: 8px 0;
+        display: inline-block;
+    }
+
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+
+
+}
+
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+
+
+/* Mobile */
+@media (max-width: 739px) {
+    .full-width {
+        width: 100% !important;
+    }
+
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    /* sua loi */
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+
+    #content .member-img {
+        width: 60%;
+    }
+
+
+    .contact-form {
+        margin-top: 16px;
+    }
+}
