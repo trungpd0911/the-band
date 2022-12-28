@@ -344,10 +344,12 @@ vuong */
 .place-img {
     width: 100%;
     display: block;
+    transition: 0.3s ease-in-out;
 }
 
 .place-img:hover {
     opacity: 0.6;
+    cursor: pointer;
 }
 
 .place-body {
